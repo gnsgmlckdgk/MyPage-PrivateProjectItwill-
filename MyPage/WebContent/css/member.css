@@ -1,0 +1,96 @@
+/* Table */
+table {
+	border: 3px solid #f2f2f2;
+	border-spacing: 0;
+	margin: 0;
+}
+
+/* (수도)가상선택자 */
+tr:nth-of-type(even) {	/* 짝수 tr에 지정 */
+	background: #fbfbfb; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fbfbfb 0%, #fafafa 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbfbfb), color-stop(100%,#fafafa)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fbfbfb 0%,#fafafa 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fbfbfb 0%,#fafafa 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fbfbfb 0%,#fafafa 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fbfbfb 0%,#fafafa 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
+	}
+tr:nth-of-type(odd) {	/* 홀수 tr에 지정 */
+	
+
+	background: #f8f8f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8f8f8 0%, #f6f6f6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8f8f8 0%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8f8f8 0%,#f6f6f6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8f8f8 0%,#f6f6f6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8f8f8 0%,#f6f6f6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+tr:hover {
+	background: #f2f2f2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f2f2f2 0%, #f0f0f0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#f0f0f0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f2f2 0%,#f0f0f0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f2f2 0%,#f0f0f0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f2f2 0%,#f0f0f0 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f2f2f2 0%,#f0f0f0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-9 */
+}
+
+tr {
+	font-family: "나눔 고딕", sans-serif;
+}
+
+th {
+	width: 150px;
+	font-size: 16px;
+	
+	padding: 10px 20px 10px 20px;
+	border-top: 1px solid #fafafa;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #f0f0f0;
+}
+
+td {
+	width: 380px;
+	font-size: 14px;
+	
+	border-top: 1px solid #fafafa;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+/* Input */
+input[type=text], input[type=password], input[type=email] {
+	width: 250px;
+	height: 20px;
+}
+
+/* 버튼 */
+#buttons {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.submit {
+	position: relative;
+}
+	.submit:hover {
+		cursor: pointer;
+	}
+	.cancel:hover {
+		cursor: pointer;
+	}
+	
+	
+	
+
+
+
+
+
+	
+
+

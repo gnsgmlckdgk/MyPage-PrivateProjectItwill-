@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #898989;
+	margin: 0px;
+	padding: 0px; font-size: 0.75em;
+	line-height: 1.2em; color: #333;
+}/*배경색 #898989 밖여백 0 안여백 0 글자크기 0.75em
+줄간격 1.2em 글자색 #333*/
+#wrap{
+	width: 971px; text-align: left;
+	margin: 0;margin-right: auto;margin-left: auto;
+	min-height: 780px;
+	background-image: url("../images/shadow.png");
+	background-repeat: repeat-y;
+}/*너비 : 971px 글자정렬 left 밖여백 0 
+밖오른쪽여백 auto 밖왼쪽여백 auto  최소높이 780px
+배경이미지 shadow.png 배경이미지반복 y*/
+#login{float: right;margin: 20px 64px 0 0;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;word-spacing: 5px}
+/*정렬 오른쪽 밖여백 20 64 0 0  
+글자체 Arial,Helvetica,sans-serif 크기 12px 
+단어간격 5px*/
+#login a{text-decoration: none; color: #333}
+/* 하이퍼링크 밑줄 없음 글자색 #333*/
+#login a:hover{color: #F90}
+/* 하이퍼링크 hover 글자색 #F90*/
+.clear{clear: both;}/*영역구분*/
+#logo{float: left;width: 265px; margin: 60px 0 0 40px;}
+/*정렬 왼쪽 너비 265px 밖여백 60px 0 0 40px*/
+header{height: 151px;margin: 0px;padding: 0px}
+/*높이 151px 밖여백 0 안여백 0*/
+
+/* TOP메뉴 */
+nav#top_menu {
+	margin: 60px 0px 0px 380px;
+	text-align: left;
+}
+
+nav#top_menu ul ul {
+	display: none;
+}
+	nav#top_menu ul li:hover > ul {
+		display: block;
+	}
+
+nav#top_menu ul {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	
+	padding: 0 0px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+	nav#top_menu ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+	nav#top_menu ul li {
+		float: left;
+	}
+		nav#top_menu ul li:hover {
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			
+			border-radius: 10px;
+		}
+			nav#top_menu ul li:hover a {
+				color: #000000;
+			}
+		
+		nav#top_menu ul li a {
+			font-size: 13px;
+			font-weight: bold;
+			display: block; padding: 15px 15px;	/* 첫번째 서브메뉴의 크기 설정 */
+			color: #757575; text-decoration: none;/
+		}
+			
+		
+	nav#top_menu ul ul {
+		background: rgb(255,255,255); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+		border-radius: 10px; padding: 0;
+		position: absolute; top: 100%;
+	}
+		nav#top_menu ul ul li {
+			float: none; 
+			position: relative;
+		}
+			nav#top_menu ul ul li a {
+				padding: 15px 40px;	/* 두번째 서브메뉴의 크기 설정 */
+				font-weight: bold;
+			}	
+				nav#top_menu ul ul li a:hover {
+					border-radius: 10px;
+					font-size: 1.4em;
+					font-weight: bold;
+					color: #000000;
+					
+					transition: ease-in-out;
+					transition-delay: 0;
+					transition-duration: 0.1s; 
+				}
+		
+	nav#top_menu ul ul ul {
+		position: absolute; left: 100%; top:0;
+	}
+
+/*footer부분*/
+/*글자체 seo*/
+@font-face{font-family: "seo";
+src: url("../images/segoeui.eot");
+src: local(""),
+     url("../images/segoeui.woff")format("woff"),
+     url("../images/segoeui.ttf")format("truetype");}
+footer{margin: 50px 0 0 0; height: 80px;
+background-image: url("../images/under_logo.gif");
+background-repeat: no-repeat;
+background-position: 40px center;}
+/*밖여백 50px 0 0 0 높이 80px 배경이미지under_logo.gif
+배경반복 no-repeat 위치 40px center*/
+footer hr{width: 900px;margin: 0 0 0 20px}
+/*너비 900px 밖여백 0 0 0 20px*/
+footer #copy{font-family: seo; width: 450px;
+margin: 20px 0 0 190px; float: left;}
+/*글자체 seo 너비 450px 밖여백 20px 0 0  190px 정렬 left*/
+footer #social{width: 130px; margin: 20px 20px 0 0;
+float: right;}
+/*너비 130px 밖여백 20px 20px 0 0
+정렬 오른쪽*/
+footer #social img{margin: 0 7px}/*밖여백 0 7px*/

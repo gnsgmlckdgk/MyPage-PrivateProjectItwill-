@@ -1,0 +1,6 @@
+/* 전체 배경이미지 */
+
+body {
+	background-image: url("../images/main/night.jpg");
+	background-attachment: fixed;
+}	/* 배경화면 */
